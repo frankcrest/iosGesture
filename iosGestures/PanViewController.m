@@ -19,8 +19,6 @@
    
 }
 - (IBAction)redViewPanned:(UIPanGestureRecognizer *)sender {
-//    CGPoint locationInView = [sender locationInView:self.view];
-//    sender.view.center = locationInView;
     CGPoint translationInView = [sender translationInView: self.view];
     CGPoint oldCenter = sender.view.center;
     CGPoint newCenter =  CGPointMake(oldCenter.x + translationInView.x, oldCenter.y + translationInView.y);

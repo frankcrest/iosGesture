@@ -42,6 +42,22 @@
             </objects>
             <point key="canvasLocation" x="118" y="1010"/>
         </scene>
+        <!--EdgePan-->
+        <scene sceneID="d4Z-XE-ADe">
+            <objects>
+                <viewController id="UBw-R1-pcK" customClass="EdgePanViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6GL-YP-whA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="q0f-0H-LSK"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="EdgePan" image="item1" id="PXK-ba-Rtg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sAX-hQ-xhe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2543" y="1360"/>
+        </scene>
         <!--rotation-->
         <scene sceneID="bfd-W6-nMD">
             <objects>
@@ -121,6 +137,7 @@
                         <segue destination="GFu-W4-GgX" kind="relationship" relationship="viewControllers" id="Iyt-rp-x3h"/>
                         <segue destination="ZXm-y1-lPG" kind="relationship" relationship="viewControllers" id="aXI-5E-j6C"/>
                         <segue destination="swX-Fk-s8L" kind="relationship" relationship="viewControllers" id="xSt-jc-FsD"/>
+                        <segue destination="UBw-R1-pcK" kind="relationship" relationship="viewControllers" id="oOl-Co-pV6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2YG-RR-t1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
