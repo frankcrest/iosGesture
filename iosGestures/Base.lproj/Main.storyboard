@@ -42,6 +42,22 @@
             </objects>
             <point key="canvasLocation" x="118" y="1010"/>
         </scene>
+        <!--rotation-->
+        <scene sceneID="bfd-W6-nMD">
+            <objects>
+                <viewController id="swX-Fk-s8L" customClass="RotationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kjb-cc-021">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="krz-OQ-mQg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="rotation" image="item5" id="yvh-d5-FJ2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kgW-9U-py9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1292" y="1368"/>
+        </scene>
         <!--Swipe-->
         <scene sceneID="ALL-gl-LDk">
             <objects>
@@ -104,6 +120,7 @@
                         <segue destination="vEM-qs-fZx" kind="relationship" relationship="viewControllers" id="6xR-kn-t6o"/>
                         <segue destination="GFu-W4-GgX" kind="relationship" relationship="viewControllers" id="Iyt-rp-x3h"/>
                         <segue destination="ZXm-y1-lPG" kind="relationship" relationship="viewControllers" id="aXI-5E-j6C"/>
+                        <segue destination="swX-Fk-s8L" kind="relationship" relationship="viewControllers" id="xSt-jc-FsD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2YG-RR-t1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -116,5 +133,6 @@
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>

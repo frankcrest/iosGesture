@@ -15,6 +15,7 @@
 		E948639D2284C31700646684 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E948639C2284C31700646684 /* PanViewController.m */; };
 		E94863A02284C31D00646684 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E948639F2284C31D00646684 /* TapViewController.m */; };
 		E94863A32284C65800646684 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94863A22284C65800646684 /* PinchViewController.m */; };
+		E969E4352284D98000BF76C5 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E969E4342284D98000BF76C5 /* RotationViewController.m */; };
 		E9D809F02284CB3800789480 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D809EF2284CB3800789480 /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		E948639F2284C31D00646684 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 		E94863A12284C65800646684 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
 		E94863A22284C65800646684 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		E969E4332284D98000BF76C5 /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		E969E4342284D98000BF76C5 /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 		E9D809EE2284CB3800789480 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
 		E9D809EF2284CB3800789480 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				E94863A22284C65800646684 /* PinchViewController.m */,
 				E9D809EE2284CB3800789480 /* SwipeViewController.h */,
 				E9D809EF2284CB3800789480 /* SwipeViewController.m */,
+				E969E4332284D98000BF76C5 /* RotationViewController.h */,
+				E969E4342284D98000BF76C5 /* RotationViewController.m */,
 				E948638E2284C1B300646684 /* Assets.xcassets */,
 				E94863902284C1B300646684 /* LaunchScreen.storyboard */,
 				E94863932284C1B300646684 /* Info.plist */,
@@ -159,6 +164,7 @@
 				E948639D2284C31700646684 /* PanViewController.m in Sources */,
 				E94863952284C1B300646684 /* main.m in Sources */,
 				E94863A32284C65800646684 /* PinchViewController.m in Sources */,
+				E969E4352284D98000BF76C5 /* RotationViewController.m in Sources */,
 				E9D809F02284CB3800789480 /* SwipeViewController.m in Sources */,
 				E94863A02284C31D00646684 /* TapViewController.m in Sources */,
 				E94863872284C1B100646684 /* AppDelegate.m in Sources */,
