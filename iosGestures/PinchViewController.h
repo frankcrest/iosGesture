@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PinchViewController.h
 //  iosGestures
 //
 //  Created by Frank Chen on 2019-05-09.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface PinchViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
